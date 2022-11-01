@@ -21,7 +21,6 @@ def calculator(first_number,second_number):
         division = first_number / second_number
         logging.info(f"Dziele {first_number} przez {second_number}")
         print(f"Wynik to {division}")
-
-
-
-calculator(int(input("Podaj pierwsza liczbę:")),int(input("Podaj druga liczbę:")))
+       
+if __name__ == "__main__":
+    calculator(float(input("Podaj pierwsza liczbę:")),float(input("Podaj druga liczbę:")))
