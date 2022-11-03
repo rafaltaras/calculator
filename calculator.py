@@ -46,7 +46,6 @@ if operation == 1:
     suma = add(lista)
     print(f"Wynik to {suma}")
 
-
 if operation == 2:
     lista.append(liczba)
     logging.info(f"Odejmuje od liczby {lista[0]} liczbę {lista[1]}" )
