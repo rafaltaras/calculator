@@ -1,3 +1,7 @@
+"""
+Kalkulator przyjmujący dwie liczby dla odejmowanie i dzielenia, natomiast dla mnożenia i dodawanie może przyjąć dowolnie podana ilość liczb
+"""
+
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
